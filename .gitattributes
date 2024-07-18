@@ -1,0 +1,78 @@
+# Set default behavior to automatically normalize line endings.
+* text=auto
+# Unreal Engine specific files
+*.uasset filter=lfs diff=lfs merge=lfs -text
+*.umap filter=lfs diff=lfs merge=lfs -text
+*.uproject text eol=lf
+*.ini text eol=lf
+# Source code files
+*.cs text diff
+*.cpp text diff
+*.h text diff
+*.hpp text diff
+*.c text diff
+*.cc text diff
+*.inl text diff
+# Shader files
+*.usf text
+*.ush text
+*.hlsl text
+*.glsl text
+*.metal text
+# Config files
+*.ini text eol=lf
+*.config text eol=lf
+*.json text eol=lf
+*.xml text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+# Scripts
+*.sh text eol=lf
+*.bat text eol=crlf
+*.cmd text eol=crlf
+# Images
+*.png filter=lfs diff=lfs merge=lfs -text
+*.jpg filter=lfs diff=lfs merge=lfs -text
+*.jpeg filter=lfs diff=lfs merge=lfs -text
+*.tga filter=lfs diff=lfs merge=lfs -text
+*.bmp filter=lfs diff=lfs merge=lfs -text
+*.ico filter=lfs diff=lfs merge=lfs -text
+*.icns filter=lfs diff=lfs merge=lfs -text
+*.exr filter=lfs diff=lfs merge=lfs -text
+*.psd filter=lfs diff=lfs merge=lfs -text
+# Audio files
+*.wav filter=lfs diff=lfs merge=lfs -text
+*.mp3 filter=lfs diff=lfs merge=lfs -text
+*.ogg filter=lfs diff=lfs merge=lfs -text
+*.flac filter=lfs diff=lfs merge=lfs -text
+# Video files
+*.mp4 filter=lfs diff=lfs merge=lfs -text
+*.avi filter=lfs diff=lfs merge=lfs -text
+*.mov filter=lfs diff=lfs merge=lfs -text
+*.wmv filter=lfs diff=lfs merge=lfs -text
+# Font files
+*.ttf filter=lfs diff=lfs merge=lfs -text
+*.otf filter=lfs diff=lfs merge=lfs -text
+*.woff filter=lfs diff=lfs merge=lfs -text
+*.woff2 filter=lfs diff=lfs merge=lfs -text
+# 3D model files
+*.fbx filter=lfs diff=lfs merge=lfs -text
+*.obj filter=lfs diff=lfs merge=lfs -text
+*.dae filter=lfs diff=lfs merge=lfs -text
+*.glb filter=lfs diff=lfs merge=lfs -text
+*.gltf filter=lfs diff=lfs merge=lfs -text
+# Unreal Engine config files
+Config/DefaultEditor.ini text eol=lf
+Config/DefaultEditorSettings.ini text eol=lf
+Config/DefaultEngine.ini text eol=lf
+Config/DefaultGame.ini text eol=lf
+Config/DefaultInput.ini text eol=lf
+Config/DefaultScalability.ini text eol=lf
+Config/DefaultServer.ini text eol=lf
+Config/DefaultEditorPerProjectUserSettings.ini text eol=lf
+# Documentation files
+*.md text
+*.rst text
+# Miscellaneous
+*.txt text
+*.csv text
